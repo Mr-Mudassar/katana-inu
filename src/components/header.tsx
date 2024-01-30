@@ -7,12 +7,12 @@ import OpenSeaLogo from "../../public/Vector.png";
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center">
+    <div className="flex justify-between items-center flex-wrap py-[32px] px-[90px]">
       <div>
         <Image src={Logo} alt="Katana logo" width={100} height={104} />
       </div>
 
-      <div className="w-[836px] flex justify-between">
+      <div className="w-[836px] flex justify-between flex-wrap">
         <Link href={"#"} className="no-underline text-Default text-[20px] ">
           GAMING
         </Link>
@@ -33,14 +33,14 @@ const Header = () => {
         </Link>
       </div>
 
-      <div className="flex">
-        <button className="w-[165px] h-[52px] border border-Default rounded-md text-white mx-1">
+      <div className="flex flex-wrap">
+        <button className="w-[165px] h-[52px] border border-Default rounded-md text-white mx-1 my-1">
           <div className="flex h-[30px] w-[115px] ml-7 ">
             <Image src={OpenSeaLogo} alt="opensea logo" />
             <p className=" ml-1 text-lg">OpenSea</p>
           </div>
         </button>
-        <button className="w-[165px] h-[52px] bg-Default rounded-md text-white mx-1">
+        <button className="w-[165px] h-[52px] bg-Default rounded-md text-white mx-1 my-1">
           <Image
             src={ButtonLogo}
             alt="KAINU"
