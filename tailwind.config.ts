@@ -13,6 +13,7 @@ const config: Config = {
         CustomLight : "#D0D4EA",
         CustomFontColor: "#30373F",
         Background : "#0E0C15"
+        
       },
     },
   },
