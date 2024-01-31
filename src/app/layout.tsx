@@ -1,5 +1,6 @@
 import Header from "@/components/header";
 import Footer from "@/components/footer/footer";
+import FooterLowerPart from "@/components/footer/footer-lower-part";
 import "./globals.css";
 
 export const metadata = {
@@ -24,6 +25,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <FooterLowerPart/>
       </body>
     </html>
   );

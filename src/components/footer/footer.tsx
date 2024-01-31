@@ -3,15 +3,17 @@ import FooterTopPart from "./footer-top-part";
 import "./footer.css";
 import Image from "next/image";
 import FooterLogo from "../../../public/Logo (1).png";
+import KatanaCartoonLogo from "../../../public/KI-new_pose_Viewport_017.png";
 import { GoArrowUpRight } from "react-icons/go";
 
 const Footer = () => {
   return (
-    <div className="footer-main-div border border-Default md:py-[32px] md:px-[90px]">
+    <div className="footer-main-div md:pt-[32px] md:px-[90px]">
       <FooterTopPart />
-      <div className="mt-28 grid grid-cols-3 ">
+      <div className="grid grid-cols-1 xl:grid-cols-3 mt-16 xl:mt-80 relative">
+
         {/* first section */}
-        <div>
+        <div className="px-3 py-3">
           <Image
             src={FooterLogo}
             alt="Katana Inu logo"
@@ -22,10 +24,10 @@ const Footer = () => {
             DONT MISS OUR LATEST NEWS
           </p>
 
-          <form className="rounded-lg bg-[#30373F] py-2 px-2 mt-4 flex justify-between w-3/4">
+          <form className="rounded-lg bg-[#30373F] py-2 px-2 mt-4 flex justify-between w-[90%] md:w-3/4">
             <input className="bg-transparent border-none outline-none text-white" />
             <button type="submit">
-              <div className="flex rounded-md py-2 px-4 bg-Default text-xl text-CustomFontColor font-semibold">
+              <div className="flex rounded-md py-2 md:px-4 bg-Default text-xl text-CustomFontColor font-semibold">
                 <p>SUBSCRIBE</p>
                 <GoArrowUpRight size={28} />
               </div>
@@ -54,8 +56,10 @@ const Footer = () => {
           </p>
         </div>
 
+
         {/* Second section */}
-        <div className="flex justify-around mt-6">
+
+        <div className="flex justify-around mt-6 py-3">
           <div className="text-white">
             <p className="text-xl text-white">Products</p>
             <div className="ml-1">
@@ -69,7 +73,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="text-white">
+          <div className="text-white py-3">
             <p className="text-xl text-white">Need Help ?</p>
             <div className="ml-1">
               <p className="text-md my-8 text-[#BEC1CE]">Contact us</p>
@@ -79,11 +83,18 @@ const Footer = () => {
               <p className="text-md my-8 text-[#BEC1CE]">Chainvision Games</p>
             </div>
           </div>
-
         </div>
 
+
         {/* Third Section */}
-        <div></div>
+
+        <div className="">
+          <Image
+            src={KatanaCartoonLogo}
+            alt="Katana Inu Image"
+            className=" xl:absolute right-0 bottom-0"
+          />
+        </div>
       </div>
     </div>
   );
