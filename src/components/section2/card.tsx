@@ -7,14 +7,14 @@ import "./card.css";
 
 const Card = () => {
   return (
-    <div className="flex gap-8">
+    <div className="flex flex-col md:flex-row flex-wrap justify-center items-center text-center gap-8">
       {/* demo card 1 */}
-      <div className="card w-[32%] h-[340px] background rounded-xl mt-12  border-Default bg-Default overflow-hidden">
+      <div className="card w-[90%] lg:w-[32%] h-auto lg:h-[340px] background rounded-xl mt-12  border-Default bg-Default overflow-hidden">
         <p className="text-CustomFontColor font-[jost] text-3xl font-semibold mx-6 pt-6">
           ARENA GENISIS NFT
         </p>
 
-        <div className="flex items-end ">
+        <div className="flex flex-col lg:flex-row items-end ">
           <Image
             src={Image1}
             alt="katana character 1"
