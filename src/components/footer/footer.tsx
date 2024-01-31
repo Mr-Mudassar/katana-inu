@@ -27,7 +27,7 @@ const Footer = () => {
           <form className="rounded-lg bg-[#30373F] py-2 px-2 mt-4 flex justify-between w-[90%] md:w-3/4">
             <input className="bg-transparent border-none outline-none text-white" />
             <button type="submit">
-              <div className="flex rounded-md py-2 md:px-4 bg-Default text-xl text-CustomFontColor font-semibold">
+              <div className="flex rounded-md py-2 px-1 md:px-4 bg-Default text-md md:text-xl text-CustomFontColor font-semibold">
                 <p>SUBSCRIBE</p>
                 <GoArrowUpRight size={28} />
               </div>
