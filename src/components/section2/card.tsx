@@ -9,7 +9,7 @@ const Card = () => {
   return (
     <div className="flex flex-col md:flex-row justify-center items-center text-center gap-2 lg:gap-8">
       {/* demo card 1 */}
-      <div className="card w-[100%] xl:w-[32%] h-auto 2xl:h-[340px] background rounded-xl mt-12  border-Default bg-Default overflow-hidden">
+      <div className="card w-[100%] xl:w-[32%] h-auto 2xl:h-[340px] background rounded-xl mt-12  overflow-hidden">
         <p className="text-CustomFontColor font-[jost] text-xl lg:text-3xl font-semibold mx-6 pt-6">
           ARENA GENISIS NFT
         </p>
@@ -36,7 +36,7 @@ const Card = () => {
       </div>
 
       {/* demo card 2 */}
-      <div className="card2 w-[100%] xl:w-[32%] h-auto 2xl:h-[340px] background rounded-xl mt-12  border-Default bg-Default overflow-hidden">
+      <div className="card2 w-[100%] xl:w-[32%] h-auto 2xl:h-[340px] background rounded-xl mt-12 overflow-hidden">
         <p className="text-CustomFontColor font-[jost] text-xl lg:text-3xl font-semibold mx-6 pt-6">
           ARENA GENISIS NFT
         </p>
@@ -63,7 +63,7 @@ const Card = () => {
       </div>
 
       {/* demo card 3  */}
-      <div className="card3 w-[100%] xl:w-[32%] h-auto 2xl:h-[340px] background rounded-xl mt-12  border-Default bg-Default overflow-hidden">
+      <div className="card3 w-[100%] xl:w-[32%] h-auto 2xl:h-[340px] background rounded-xl mt-12  overflow-hidden">
         <p className="text-CustomFontColor font-[jost] text-xl lg:text-3xl font-semibold mx-6 pt-6">
           ARENA GENISIS NFT
         </p>

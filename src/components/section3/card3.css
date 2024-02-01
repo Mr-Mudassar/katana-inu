@@ -1,0 +1,13 @@
+.card3-1 {
+    background: url('../../../public/section3-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card3-1-1 {
+    background: url('../../../public/section3-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
