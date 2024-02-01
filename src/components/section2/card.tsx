@@ -7,28 +7,28 @@ import "./card.css";
 
 const Card = () => {
   return (
-    <div className="flex flex-col md:flex-row flex-wrap justify-center items-center text-center gap-8">
+    <div className="flex flex-col md:flex-row justify-center items-center text-center gap-2 lg:gap-8">
       {/* demo card 1 */}
-      <div className="card w-[90%] lg:w-[32%] h-auto lg:h-[340px] background rounded-xl mt-12  border-Default bg-Default overflow-hidden">
-        <p className="text-CustomFontColor font-[jost] text-3xl font-semibold mx-6 pt-6">
+      <div className="card w-[100%] xl:w-[32%] h-auto 2xl:h-[340px] background rounded-xl mt-12  border-Default bg-Default overflow-hidden">
+        <p className="text-CustomFontColor font-[jost] text-xl lg:text-3xl font-semibold mx-6 pt-6">
           ARENA GENISIS NFT
         </p>
 
-        <div className="flex flex-col lg:flex-row items-end ">
+        <div className="flex flex-col-reverse xl:flex-row items-center lg:items-end w-[100%]">
           <Image
             src={Image1}
             alt="katana character 1"
-            className="item-ends text-end"
+            className="item-ends text-end items-baseline"
           />
 
-          <div className="flex flex-col justify-center text-center items-end pr-8 pb-8">
-            <p className="text-6xl text-white font-bold mb-2 font-[jost]">
+          <div className="flex flex-col justify-center text-center items-center xl:items-end pr-2 pb-4 xl:pr-8 xl:pb-8">
+            <p className="text-3xl md:text-4xl 2xl:text-6xl text-white font-bold mb-0 lg:mb-2 font-[jost]">
               30%
             </p>
             <p className="text-CustomFontColor text-lg mb-2 font-semibold">
               Discount on Games
             </p>
-            <button className="rounded px-4 py-2 bg-CustomFontColor text-white font-semibold">
+            <button className="rounded px-1 xl:px-4 py-2 bg-CustomFontColor text-white font-semibold text-sm md:text-md 2xl:text-lg">
               GET BONUS
             </button>
           </div>
@@ -36,23 +36,26 @@ const Card = () => {
       </div>
 
       {/* demo card 2 */}
-      <div className="card2 w-[32%] h-[340px] background rounded-xl mt-12  border-Default bg-Default overflow-hidden">
-        <p className="text-CustomFontColor font-[jost] text-3xl font-semibold mx-6 pt-6">
+      <div className="card2 w-[100%] xl:w-[32%] h-auto 2xl:h-[340px] background rounded-xl mt-12  border-Default bg-Default overflow-hidden">
+        <p className="text-CustomFontColor font-[jost] text-xl lg:text-3xl font-semibold mx-6 pt-6">
           ARENA GENISIS NFT
         </p>
 
-        <div className="flex items-end overflow-hidden">
-          <div className="overflow-hidden">
-            <Image src={Image2} alt="katana character 2" />
-          </div>
-          <div className="flex flex-col justify-center text-center items-end pr-8 pb-8">
-            <p className="text-6xl text-white font-bold mb-2 font-[jost]">
+        <div className="flex flex-col-reverse xl:flex-row items-center lg:items-end w-[100%]">
+          <Image
+            src={Image2}
+            alt="katana character 1"
+            className="item-ends text-end items-baseline"
+          />
+
+          <div className="flex flex-col justify-center text-center items-center xl:items-end pr-2 pb-4 xl:pr-8 xl:pb-8">
+            <p className="text-3xl md:text-4xl 2xl:text-6xl text-white font-bold mb-0 lg:mb-2 font-[jost]">
               30%
             </p>
             <p className="text-CustomFontColor text-lg mb-2 font-semibold">
               Discount on Games
             </p>
-            <button className="rounded px-4 py-2 bg-CustomFontColor text-white font-semibold">
+            <button className="rounded px-1 xl:px-4 py-2 bg-CustomFontColor text-white font-semibold text-sm md:text-md 2xl:text-lg">
               GET BONUS
             </button>
           </div>
@@ -60,23 +63,26 @@ const Card = () => {
       </div>
 
       {/* demo card 3  */}
-      <div className="card3 w-[32%] h-[340px] background rounded-xl mt-12  border-Default bg-Default overflow-hidden">
-        <p className="text-CustomFontColor font-[jost] text-3xl font-semibold mx-6 pt-6">
+      <div className="card3 w-[100%] xl:w-[32%] h-auto 2xl:h-[340px] background rounded-xl mt-12  border-Default bg-Default overflow-hidden">
+        <p className="text-CustomFontColor font-[jost] text-xl lg:text-3xl font-semibold mx-6 pt-6">
           ARENA GENISIS NFT
         </p>
 
-        <div className="flex items-end overflow-hidden">
-          <div className="overflow-hidden">
-            <Image src={Image3} alt="katana character 3" />
-          </div>
-          <div className="flex flex-col justify-center text-center items-end pr-8 pb-8">
-            <p className="text-6xl text-white font-bold mb-2 font-[jost]">
+        <div className="flex flex-col-reverse xl:flex-row items-center lg:items-end w-[100%]">
+          <Image
+            src={Image3}
+            alt="katana character 1"
+            className="item-ends text-end items-baseline"
+          />
+
+          <div className="flex flex-col justify-center text-center items-center xl:items-end pr-2 pb-4 xl:pr-8 xl:pb-8">
+            <p className="text-3xl md:text-4xl 2xl:text-6xl text-white font-bold mb-0 lg:mb-2 font-[jost]">
               30%
             </p>
             <p className="text-CustomFontColor text-lg mb-2 font-semibold">
               Discount on Games
             </p>
-            <button className="rounded px-4 py-2 bg-CustomFontColor text-white font-semibold">
+            <button className="rounded px-1 xl:px-4 py-2 bg-CustomFontColor text-white font-semibold text-sm md:text-md 2xl:text-lg">
               GET BONUS
             </button>
           </div>
