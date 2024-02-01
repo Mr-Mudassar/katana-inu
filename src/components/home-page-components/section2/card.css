@@ -1,19 +1,19 @@
 .card {
-    background: url('../../../public//image\ 61.png');
+    background: url('../../../../public//image\ 61.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .card2 {
-    background: url('../../../public/image\ 56.png');
+    background: url('../../../../public/image\ 56.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .card3 {
-    background: url('../../../public//image\ 62.png');
+    background: url('../../../../public//image\ 62.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

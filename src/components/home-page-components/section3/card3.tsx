@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { FaHeart } from "react-icons/fa";
-import Ethereum from "../../../public/Frame 625940.png";
+import Ethereum from "../../../../public/Frame 625940.png";
 
 const Card3 = () => {
   return (

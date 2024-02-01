@@ -31,17 +31,17 @@ const Section3Main = () => {
 
       <Card3 />
 
-      <div className="flex flex-col md:flex-row justify-between mt-16 text-center items-center">
-        <div className="flex gap-6">
-          <button className=" text-lg md:text-3xl text-Default underline font-[jost]">
+      <div className="flex flex-col md:flex-row justify-between mt-28 text-center items-center">
+        <div className="flex gap-2 md:gap-6">
+          <button className="text-sm md:text-xl lg:text-3xl text-Default underline font-[jost]">
             UPCOMING IN-GAME NFTS
           </button>
           <span className="h-10 w-[0.5px] bg-CustomLight mt-1"></span>
-          <button className=" text-lg md:text-3xl text-CustomLight font-[jost]">
+          <button className=" text-sm md:text-xl lg:text-3xl text-CustomLight font-[jost]">
             UPCOMING IN-GAME NFTS
           </button>
           <span className="h-10 w-[0.5px] bg-CustomLight mt-1"></span>
-          <button className=" text-lg md:text-3xl text-CustomLight font-[jost]">
+          <button className=" text-sm md:text-xl lg:text-3xl text-CustomLight font-[jost]">
             UPCOMMING TICKETS
           </button>
         </div>

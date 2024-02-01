@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import continueIcon from "../../../public/Vector (1).png";
-import KatanaInu1 from "../../../public/KI-new_pose_Viewport_014.png";
+import continueIcon from "../../../../public/Vector (1).png";
+import KatanaInu1 from "../../../../public/KI-new_pose_Viewport_014.png";
 import "./heroSection.css";
 
 const HeroSection = () => {

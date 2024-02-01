@@ -12,7 +12,7 @@ const config: Config = {
         Default: "#F9C306",
         CustomLight : "#D0D4EA",
         CustomFontColor: "#30373F",
-        Background : "#23222A"
+        Background : "#1E1E1E"
         
       },
     },

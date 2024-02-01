@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import Image1 from "../../../public/KI-new_pose_Viewport_013.png";
-import Image2 from "../../../public/KI-new_pose_Viewport_002.png";
-import Image3 from "../../../public/KI-new_pose_Viewport_017 (1).png";
+import Image1 from "../../../../public/KI-new_pose_Viewport_013.png";
+import Image2 from "../../../../public/KI-new_pose_Viewport_002.png";
+import Image3 from "../../../../public/KI-new_pose_Viewport_017 (1).png";
 import "./card.css";
 
 const Card = () => {
