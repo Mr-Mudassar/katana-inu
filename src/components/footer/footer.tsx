@@ -11,7 +11,6 @@ const Footer = () => {
     <div className="footer-main-div md:pt-[32px] md:px-[90px]">
       <FooterTopPart />
       <div className="grid grid-cols-1 xl:grid-cols-3 mt-16 xl:mt-80 relative">
-
         {/* first section */}
         <div className="px-3 py-3">
           <Image
@@ -24,15 +23,17 @@ const Footer = () => {
             DONT MISS OUR LATEST NEWS
           </p>
 
-          <form className="rounded-lg bg-[#30373F] py-2 px-2 mt-4 flex justify-between w-[90%] md:w-3/4">
-            <input className="bg-transparent border-none outline-none text-white" />
-            <button type="submit">
-              <div className="flex rounded-md py-2 px-1 md:px-4 bg-Default text-md md:text-xl text-CustomFontColor font-semibold">
-                <p>SUBSCRIBE</p>
-                <GoArrowUpRight size={28} />
-              </div>
-            </button>
-          </form>
+          <div className="m-auto flex justify-center text-center items-center">
+            <form className="rounded-lg bg-Background py-2 px-2 mt-4 flex justify-between w-[90%] md:w-[100%]">
+              <input className="bg-transparent border-none outline-none text-white w-[66%]" />
+              <button type="submit">
+                <div className="flex rounded-md py-2 px-1 md:px-4 bg-Default text-md md:text-xl text-CustomFontColor font-semibold">
+                  <p>SUBSCRIBE</p>
+                  <GoArrowUpRight size={28} />
+                </div>
+              </button>
+            </form>
+          </div>
 
           <p className="text-white mt-8 font-[jost] text-md">
             KATANA INU IS A A PROJECT FROM{" "}
@@ -55,7 +56,6 @@ const Footer = () => {
             </span>
           </p>
         </div>
-
 
         {/* Second section */}
 
@@ -84,7 +84,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-
 
         {/* Third Section */}
 

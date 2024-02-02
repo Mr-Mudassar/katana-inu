@@ -1,6 +1,7 @@
 import Header from "@/components/header";
 import Footer from "@/components/footer/footer";
 import FooterLowerPart from "@/components/footer/footer-lower-part";
+import CallToAction from "@/components/call-to-action/callToAction";
 import "./globals.css";
 
 export const metadata = {
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body className="bg-Background ">
         <Header />
         {children}
+        <CallToAction />
         <Footer />
         <FooterLowerPart/>
       </body>

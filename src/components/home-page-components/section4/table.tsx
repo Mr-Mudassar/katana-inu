@@ -27,7 +27,7 @@ const Table = () => {
       {/* data  */}
 
       {/* one  */}
-      <div className="bg-Background rounded-lg py-3 px-4 flex justify-between">
+      <div className="bg-Background rounded-lg py-3 px-4 flex justify-between w-full">
         <div className="flex-col space-y-1 justify-start text-lg">
           <p className="text-CustomLight font-[jost]">
             0xd6d24c5c89001c028261 <br />

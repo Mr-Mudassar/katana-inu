@@ -10,7 +10,7 @@ export default function Home() {
       <HeroSection />
       <Section2Main />
       <Section3Main />
-      <Section4Main />
+      {/* <Section4Main /> */}
     </div>
   );
 }
