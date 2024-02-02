@@ -42,7 +42,7 @@ const Section2Main = () => {
         <div className="bg-CustomFontColor text-center items-center rounded-lg px-4 py-4 flex  w-[100%] md:w-[40%] my-2">
           <IoIosSearch size={28} className="text-white mr-3" />
           <input
-            className="bg-transparent border-none outline-none text-white border text-xl"
+            className="bg-transparent border-none outline-none text-white border text-xl w-[100%]"
             placeholder="SEARCH FOR GAMES"
           />
         </div>
