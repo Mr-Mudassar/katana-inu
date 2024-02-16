@@ -47,8 +47,8 @@ const Footer = () => {
           <br></br>
           <p className="text-sm text-[#7A7977]">
             Buy Katana Inu NFTs only from katanainu.com or kainu.io subdomains
-            to be safe. Check the website's address for on our main website
-            www.katanainu.com and go to the "Minting NFTs" section to verify.
+            to be safe. Check the websites address for on our main website
+            www.katanainu.com and go to the Minting NFTs section to verify.
             <span className="text-Default">
               {" "}
               Ask in our telegram or discord channel for confirmation. Avoid

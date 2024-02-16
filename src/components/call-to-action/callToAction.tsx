@@ -12,7 +12,7 @@ const CallToAction = () => {
           <div className="flex-col justify-center text-center items-center pt-16">
             <div>
               <p className="font-[jost] text-2xl lg:text-3xl text-CustomLight">
-                DON'T MISS OUR LATEST NEWS
+                DO NOT MISS OUR LATEST NEWS
               </p>
             </div>
 
