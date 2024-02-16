@@ -25,7 +25,7 @@ const Card = () => {
             <p className="text-3xl md:text-4xl 2xl:text-6xl text-white font-bold mb-0 lg:mb-2 font-[jost]">
               30%
             </p>
-            <p className="text-CustomFontColor text-lg mb-2 font-semibold">
+            <p className="text-CustomFontColor text-end text-lg mb-2 font-semibold">
               Discount on Games
             </p>
             <button className="rounded px-1 xl:px-4 py-2 bg-CustomFontColor text-white font-semibold text-sm md:text-md 2xl:text-lg">
@@ -52,7 +52,7 @@ const Card = () => {
             <p className="text-3xl md:text-4xl 2xl:text-6xl text-white font-bold mb-0 lg:mb-2 font-[jost]">
               30%
             </p>
-            <p className="text-CustomFontColor text-lg mb-2 font-semibold">
+            <p className="text-CustomFontColor text-end text-lg mb-2 font-semibold">
               Discount on Games
             </p>
             <button className="rounded px-1 xl:px-4 py-2 bg-CustomFontColor text-white font-semibold text-sm md:text-md 2xl:text-lg">
@@ -79,7 +79,7 @@ const Card = () => {
             <p className="text-3xl md:text-4xl 2xl:text-6xl text-white font-bold mb-0 lg:mb-2 font-[jost]">
               30%
             </p>
-            <p className="text-CustomFontColor text-lg mb-2 font-semibold">
+            <p className="text-CustomFontColor text-end text-lg mb-2 font-semibold">
               Discount on Games
             </p>
             <button className="rounded px-1 xl:px-4 py-2 bg-CustomFontColor text-white font-semibold text-sm md:text-md 2xl:text-lg">
