@@ -36,7 +36,7 @@ const Card3 = () => {
           or for purchasing our $Kata Token:
         </p>
 
-        <div className="flex lg:flex-col xl:flex-row justify-between mt-6">
+        <div className="flex lg:flex-col 2xl:flex-row justify-between mt-6">
           {/* section 1 */}
           <div className="flex flex-col justify-start text-start items-start ">
             <p className="text-lg text-CustomLight">Price:</p>
@@ -45,7 +45,7 @@ const Card3 = () => {
             </p>
           </div>
 
-          <span className="h-10 w-[0.5px] bg-CustomFontColor mt-1 lg:hidden xl:block "></span>
+          <span className="h-10 w-[0.5px] bg-CustomFontColor mt-1 lg:hidden 2xl:block "></span>
 
           {/* section 2 */}
           <div className="flex flex-col justify-start text-start items-start ">
@@ -55,11 +55,11 @@ const Card3 = () => {
             </p>
           </div>
 
-          <span className="h-10 w-[0.5px] bg-CustomFontColor mt-1 lg:hidden xl:block"></span>
+          <span className="h-10 w-[0.5px] bg-CustomFontColor mt-1 lg:hidden 2xl:block"></span>
 
           {/* section 3 */}
           <div className="flex flex-col justify-start text-start items-start ">
-            <div className="text-lg text-CustomLight mx-auto lg:mx-0 xl:mx-auto mb-2 ">
+            <div className="text-lg text-CustomLight mx-auto lg:mx-0 2xl:mx-auto mb-2 ">
               <Image src={Ethereum} alt="ethereum" />
             </div>
             <p className="font-[jost] text-Default text-xl font-semibold">
@@ -99,7 +99,7 @@ const Card3 = () => {
           or for purchasing our $Kata Token:
         </p>
 
-        <div className="flex lg:flex-col xl:flex-row justify-between mt-6">
+        <div className="flex lg:flex-col 2xl:flex-row justify-between mt-6">
           {/* section 1 */}
           <div className="flex flex-col justify-start text-start items-start ">
             <p className="text-lg text-CustomLight">Price:</p>
@@ -108,7 +108,7 @@ const Card3 = () => {
             </p>
           </div>
 
-          <span className="h-10 w-[0.5px] bg-CustomFontColor mt-1 lg:hidden xl:block "></span>
+          <span className="h-10 w-[0.5px] bg-CustomFontColor mt-1 lg:hidden 2xl:block "></span>
 
           {/* section 2 */}
           <div className="flex flex-col justify-start text-start items-start ">
@@ -118,11 +118,11 @@ const Card3 = () => {
             </p>
           </div>
 
-          <span className="h-10 w-[0.5px] bg-CustomFontColor mt-1 lg:hidden xl:block"></span>
+          <span className="h-10 w-[0.5px] bg-CustomFontColor mt-1 lg:hidden 2xl:block"></span>
 
           {/* section 3 */}
           <div className="flex flex-col justify-start text-start items-start ">
-            <div className="text-lg text-CustomLight mx-auto lg:mx-0 xl:mx-auto mb-2 ">
+            <div className="text-lg text-CustomLight mx-auto lg:mx-0 2xl:mx-auto mb-2 ">
               <Image src={Ethereum} alt="ethereum" />
             </div>
             <p className="font-[jost] text-Default text-xl font-semibold">
@@ -162,7 +162,7 @@ const Card3 = () => {
           or for purchasing our $Kata Token:
         </p>
 
-        <div className="flex lg:flex-col xl:flex-row justify-between mt-6">
+        <div className="flex lg:flex-col 2xl:flex-row justify-between mt-6">
           {/* section 1 */}
           <div className="flex flex-col justify-start text-start items-start ">
             <p className="text-lg text-CustomLight">Price:</p>
@@ -171,7 +171,7 @@ const Card3 = () => {
             </p>
           </div>
 
-          <span className="h-10 w-[0.5px] bg-CustomFontColor mt-1 lg:hidden xl:block "></span>
+          <span className="h-10 w-[0.5px] bg-CustomFontColor mt-1 lg:hidden 2xl:block "></span>
 
           {/* section 2 */}
           <div className="flex flex-col justify-start text-start items-start ">
@@ -181,11 +181,11 @@ const Card3 = () => {
             </p>
           </div>
 
-          <span className="h-10 w-[0.5px] bg-CustomFontColor mt-1 lg:hidden xl:block"></span>
+          <span className="h-10 w-[0.5px] bg-CustomFontColor mt-1 lg:hidden 2xl:block"></span>
 
           {/* section 3 */}
           <div className="flex flex-col justify-start text-start items-start ">
-            <div className="text-lg text-CustomLight mx-auto lg:mx-0 xl:mx-auto mb-2 ">
+            <div className="text-lg text-CustomLight mx-auto lg:mx-0 2xl:mx-auto mb-2 ">
               <Image src={Ethereum} alt="ethereum" />
             </div>
             <p className="font-[jost] text-Default text-xl font-semibold">
@@ -225,7 +225,7 @@ const Card3 = () => {
           or for purchasing our $Kata Token:
         </p>
 
-        <div className="flex lg:flex-col xl:flex-row justify-between mt-6">
+        <div className="flex lg:flex-col 2xl:flex-row justify-between mt-6">
           {/* section 1 */}
           <div className="flex flex-col justify-start text-start items-start ">
             <p className="text-lg text-CustomLight">Price:</p>
@@ -234,7 +234,7 @@ const Card3 = () => {
             </p>
           </div>
 
-          <span className="h-10 w-[0.5px] bg-CustomFontColor mt-1 lg:hidden xl:block "></span>
+          <span className="h-10 w-[0.5px] bg-CustomFontColor mt-1 lg:hidden 2xl:block "></span>
 
           {/* section 2 */}
           <div className="flex flex-col justify-start text-start items-start ">
@@ -244,11 +244,11 @@ const Card3 = () => {
             </p>
           </div>
 
-          <span className="h-10 w-[0.5px] bg-CustomFontColor mt-1 lg:hidden xl:block"></span>
+          <span className="h-10 w-[0.5px] bg-CustomFontColor mt-1 lg:hidden 2xl:block"></span>
 
           {/* section 3 */}
           <div className="flex flex-col justify-start text-start items-start ">
-            <div className="text-lg text-CustomLight mx-auto lg:mx-0 xl:mx-auto mb-2 ">
+            <div className="text-lg text-CustomLight mx-auto lg:mx-0 2xl:mx-auto mb-2 ">
               <Image src={Ethereum} alt="ethereum" />
             </div>
             <p className="font-[jost] text-Default text-xl font-semibold">

@@ -1,8 +1,7 @@
-import Image from "next/image";
 import HeroSection from "@/components/home-page-components/hero section/heroSection";
 import Section2Main from "@/components/home-page-components/section2/section-2-main";
 import Section3Main from "@/components/home-page-components/section3/section-3-main";
-import Section4Main from "@/components/home-page-components/section4/section-4-main";
+// import Section4Main from "@/components/home-page-components/section4/section-4-main";
 
 export default function Home() {
   return (

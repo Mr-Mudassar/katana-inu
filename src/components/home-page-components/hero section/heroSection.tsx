@@ -9,7 +9,7 @@ const HeroSection = () => {
     <div className="relative h-[500px] sm:h-[690px] md:h-[600px] lg:-w-[500px] xl:h-[600px] mt-0 mb-0 lg:mb-14 z-50 overflow-hidden">
       <div className="hero-section-main rounded-lg px-2 lg:px-4 2xl:px-10 3xl:px-16 h-[500px] sm:h-[690px] md:h-[600px] xl:h-[520px] mt-0 xl:mt-[80px] flex flex-col md:flex-row justify-start md:justify-between">
         {/* section one  */}
-        <div className="flex flex-col justify-start space-y-5 py-2 lg:py-8 md:py-16 self-end">
+        <div className="flex flex-col justify-start space-y-5 py-2 lg:py-8 md:py-16 lg:self-end z-20">
           <div>
             <h1 className="text-white text-3xl lg:text-3xl xl:text-5xl 2xl:text-7xl font-bold font-[jost]">
               KATANA INU
@@ -30,10 +30,10 @@ const HeroSection = () => {
         </div>
 
         {/* section two */}
-        <div className="flex flex-col justify-end items-end py-2 md:py-6 lg:py-8 ">
-          <p className="text-white font-bold text-md md:text-lg ">GAME WITH</p>
+        <div className="flex md:flex-col space-x-2 justify-start lg:justify-end items-end py-2 md:py-6 lg:py-8 z-20">
+          <p className="text-white font-bold text-md md:text-lg ">GAME WITH </p>
           <p className="text-Default font-bold text-lg md:text-2xl lg:text-3xl xl:text-5xl font-[jost]">
-            MAGIC
+            MAGIC 
           </p>
           <p className="text-Default font-bold text-lg md:text-2xl lg:text-3xl xl:text-5xl font-[jost]">
             REWARDS
@@ -42,14 +42,14 @@ const HeroSection = () => {
 
         <Image
           src={KatanaInu1}
-          alt="katana inu 1"
-          className="block md:hidden "
+          alt="katana inu small"
+          className="md:hidden z-10 self-end absolute bottom-0"
         />
       </div>
       <Image
         src={KatanaInu1}
-        alt="katana inu 1"
-        className="hidden lg:w-[600px] xl:w-[800px] md:block absolute bottom-0 left-1/2 transform -translate-x-1/2"
+        alt="katana inu large"
+        className="hidden w-[45em] lg:w-[600px] xl:w-[800px] md:block absolute bottom-0 left-1/2 transform -translate-x-1/2 z-10"
       />
     </div>
   );

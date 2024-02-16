@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
+
 const navLinks = [
   { name: "GAMING", href: "/" },
   { name: "TOKENOMICS", href: "/token-omics" },
@@ -29,54 +31,30 @@ export default function Header() {
         <div className="mx-auto">
           <div className="relative flex h-20 lg:h-24 items-center justify-between">
             {/* 1st */}
-            <div className="flex items-center lg:hidden pr-8">
+            <div className="flex items-center xl:hidden pr-8">
               <button
                 type="button"
-                className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                className="relative inline-flex items-center justify-center rounded-md p-2 text-CustomLight hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
                 onClick={toggleMobileMenu}
               >
-                <span className="absolute -inset-0.5"></span>
-                <span className="sr-only">Open main menu</span>
-
-                <svg
-                  className="block h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                  />
-                </svg>
-                <svg
-                  className="hidden h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                </svg>
+                <div className="w-66">
+                  <GiHamburgerMenu size={42}/>
+                </div>
               </button>
             </div>
             {/* 2nd */}
-            <div className="flex flex-1 items-center justify-center lg:items-stretch lg:justify-start">
+            <div className="flex flex-1 items-center justify-center xl:items-stretch xl:justify-start">
               <div className="flex flex-shrink-0 items-center w-auto">
-                <Image src={Logo} alt="Not found" className="w-14 md:w-18 lg:w-28 xl:w-38" />
+                <Image
+                  src={Logo}
+                  alt="Not found"
+                  className="w-14 md:w-18 lg:w-24 xl:w-38"
+                />
               </div>
-              <div className="hidden ml-0 xl:ml-16 lg:flex items-center">
-                <div className="flex space-x-2 xl:space-x-4">
+              <div className="hidden ml-0 lg:ml-4 2xl:ml-16 xl:flex items-center">
+                <div className="flex space-x-2 lg:space-x-1 2xl:space-x-2">
                   {navLinks.map((link, index) => (
                     <Link
                       href={link.href}
@@ -119,7 +97,7 @@ export default function Header() {
           </div>
         </div>
         {isMobileMenuOpen && (
-          <div className="lg:hidden" id="mobile-menu">
+          <div className="xl:hidden" id="mobile-menu">
             <div className="space-y-1 pb-3 pt-2 bg-gray-800 rounded-md p-3">
               {navLinks.map((link, index) => (
                 <Link

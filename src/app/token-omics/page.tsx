@@ -8,4 +8,4 @@ const Tokenomics = () => {
   )
 }
 
-export default Tokenomics
+export default Tokenomics;
