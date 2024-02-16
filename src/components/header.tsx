@@ -39,7 +39,7 @@ export default function Header() {
                 aria-expanded="false"
                 onClick={toggleMobileMenu}
               >
-                <div className="w-66">
+                <div className="">
                   <GiHamburgerMenu size={42}/>
                 </div>
               </button>
